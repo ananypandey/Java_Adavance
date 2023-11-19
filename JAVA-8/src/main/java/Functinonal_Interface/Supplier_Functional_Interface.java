@@ -12,7 +12,7 @@ public class Supplier_Functional_Interface
           int i=0;
           return i;
         };
-
+        System.out.println(supplier.get());
 
         List<String> list = new ArrayList<>();
 //        list.add("a");
